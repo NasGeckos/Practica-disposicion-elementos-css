@@ -1,0 +1,33 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    opacity: 0.2;
+    text-align: center;
+    padding-top: 25px;
+
+}
+
+.header:hover{
+    opacity: 1;
+}
+
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    margin: 0px 150px 0 150px;
+    padding: 25px;
+}
+
+.imagen-galeria {
+    width: 300px;
+}
+
+.imagen-galeria:hover {
+    opacity: 0.3;
+    cursor: pointer;
+}
